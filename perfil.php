@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <?php include_once 'navcliente.php' ?>
     <main>
         <div class="card-header bg-warning" style="color: black;">
-            <strong>PERFIL DEL USUARIO</strong>
+            <strong>PERFIL DEL USUARIO LB FERRETERIA</strong>
         </div>
         <br />
 
