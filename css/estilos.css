@@ -1,0 +1,130 @@
+/* GENERAL */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #000 !important;
+    /* Negro */
+}
+
+.card-header.titulo {
+    background-color: orange;
+    /* Negro */
+    color: #000;
+    border: 2px solid orange;
+}
+
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: orange !important;
+    /* Naranja */
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: black !important;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/* MODAL */
+.modal-content {
+    background-color: #000;
+    /* Negro */
+    color: orange;
+    border: 2px solid orange;
+}
+
+
+.modal-header,
+.modal-footer {
+    border-color: orange;
+    background-color: #000;
+}
+
+.modal-title {
+    color: orange;
+}
+
+.form-control {
+    background-color: #1a1a1a;
+    border: 1px solid orange;
+    color: orange;
+}
+
+.form-control::placeholder {
+    color: #ffbb66;
+}
+
+/* BUTTONS */
+.btn-primary {
+    background-color: orange;
+    border-color: orange;
+    color: black;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff9900;
+    border-color: #ff9900;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #333;
+    border-color: orange;
+    color: orange;
+}
+
+.btn-secondary:hover {
+    background-color: orange;
+    color: black;
+}
+
+/* CARDS */
+.card {
+    background-color: #000;
+    color: orange;
+    border: 1px solid orange;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-header {
+    background-color: #000;
+    color: orange;
+}
+
+/* FOOTER */
+footer {
+    background-color: #000;
+    color: orange;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid orange;
+    z-index: 1000;
+}
+
+/* RESPONSIVE FIX FOR FOOTER (Optional for content below viewport height) */
+body::after {
+    content: '';
+    display: block;
+    height: 60px;
+    /* height of footer */
+}
+
+.card-img {
+    width: 100px;
+    height: auto;
+}
